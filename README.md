@@ -98,7 +98,7 @@ signingConfigs {
 `$(SRCROOT)/../node_modules/react-native-umeng-share-kit/ios/RNUmengShareKit/UMSocialUI`
 
 
-2. 将 `Libraries` -> `RCTUMSocial.xcodeproj` -> `RCTUMSocial` -> `UMSocialSDK` 和 `UMSocialUI` 文件夹拖到您的主工程下，不需要勾选 `Copy items if needed`
+2. 在项目的`Build Phases`中`Link Binary With Libraries`中添加 `UMSocialCore.framework`、`UMSocialNetwork.framework`、`UShareUI.framework`
 
 3. 添加依赖库
 	
