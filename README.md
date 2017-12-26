@@ -94,8 +94,8 @@ signingConfigs {
 
 
 1. 在项目的的`Build Settings` 中搜索 `header` 找到 `Framework Search Paths` 
-添加 `$(SRCROOT)/../node_modules/react-native-umsocial/ios/RCTUMSocial/UMSocialSDK` 及 
-`$(SRCROOT)/../node_modules/react-native-umsocial/ios/RCTUMSocial/UMSocialUI`
+添加 `$(SRCROOT)/../node_modules/react-native-umeng-share-kit/ios/RNUmengShareKit/UMSocialSDK` 及 
+`$(SRCROOT)/../node_modules/react-native-umeng-share-kit/ios/RNUmengShareKit/UMSocialUI`
 
 
 2. 将 `Libraries` -> `RCTUMSocial.xcodeproj` -> `RCTUMSocial` -> `UMSocialSDK` 和 `UMSocialUI` 文件夹拖到您的主工程下，不需要勾选 `Copy items if needed`
